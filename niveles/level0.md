@@ -5,9 +5,10 @@ Conectarse al servidor de Bandit mediante SSH.
 
 ## Requisitos previos
 Para poder realizar esta conexión, necesitas:
-* **Un cliente SSH instalado:** En sistemas Linux (como Manjaro) ya viene instalado por defecto a través del paquete `openssh`.
+* **Un cliente SSH instalado:** En sistemas Linux (como Linux Mint) ya viene instalado por defecto a través del paquete `openssh`.
 * **Conectividad a internet:** El servidor de Bandit es un servicio externo, por lo que requieres una conexión activa.
 * **Terminal:** Acceso a una interfaz de línea de comandos.
+* **Contraseña:** Para este nivel, la contraseña es "bandit0". Nota: El uso de contraseñas por defecto en entornos reales es una mala práctica, pero en este wargame es necesaria para acceder inicialmente.
 
 ## ¿Qué es SSH?
 SSH (Secure Shell) es un protocolo de red que permite acceder de forma remota a otros equipos de manera segura. Cifra toda la comunicación, lo que garantiza que los datos no viajen en texto plano por la red.
