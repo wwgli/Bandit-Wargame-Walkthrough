@@ -31,11 +31,10 @@ Para tus búsquedas, puedes estructurar el parámetro `-size` de la siguiente fo
 *Ejemplo: `-size +10M` buscaría archivos mayores a 10 Megabytes.*
 
 ## Acceso SSH
-```bash
 ssh bandit5@bandit.labs.overthewire.org -p 2220
 
 ## Solucion tecnica 
-
+```bash
 # Buscar recursivamente un archivo de exactamente 1033 bytes que NO sea ejecutable
 find . -type f -size 1033c ! -executable
 

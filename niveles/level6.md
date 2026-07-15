@@ -19,10 +19,11 @@ Utilizaremos de nuevo el comando `find`, pero esta vez buscando desde la raíz d
   * Al usar `2>/dev/null`, ocultamos los mensajes de "Permiso denegado" para ver solo el resultado que nos interesa.
 
 ## Acceso SSH
-```bash
 ssh bandit6@bandit.labs.overthewire.org -p 2220
 
-## Solucion técnica 
+## Solucion técnica
+
+```bash 
 # Buscar un archivo de 33 bytes, propiedad del usuario bandit7 y grupo bandit6 en todo el disco
 find / -user bandit7 -group bandit6 -size 33c 2>/dev/null
 
