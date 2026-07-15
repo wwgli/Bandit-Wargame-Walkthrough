@@ -3,11 +3,6 @@
 ## Objetivo
 Localizar un archivo oculto dentro del directorio `inhere` y leer su contenido para obtener la contraseña del siguiente nivel.
 
-## Requisitos previos
-* **Acceso SSH al nivel:** Conectarse al servidor usando la contraseña obtenida en el nivel anterior.
-* **Navegación de directorios:** Conocer el uso básico del comando `cd` (change directory).
-* **Terminal:** Acceso a una interfaz de línea de comandos.
-
 ## El problema de los archivos ocultos
 En sistemas Linux, cualquier archivo o directorio que comienza con un punto (`.`) es considerado oculto por el sistema y no se muestra al ejecutar un `ls` estándar. Esto se utiliza comúnmente para archivos de configuración de usuarios o del sistema, evitando que se saturen las carpetas principales y protegiéndolos de borrados accidentales.
 
